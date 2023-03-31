@@ -1,0 +1,13 @@
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgb(237, 229, 229, 0.270) !important;
+
+}
+
+.card-body {
+    padding: 2rem !important;
+}
+
+.card-tex {
+    padding: 0.3rem 1rem;
+
+}

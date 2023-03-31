@@ -2,15 +2,15 @@ import React from "react";
 
 
 
-function Card({title, imageSource}) {
+function Card({title, imageSource, text, url}) {
     console.log(props)
     return (
         <div className="card text-center">
             <div className="card-body">
                 <img src="..." class="card-img-top" alt="...">
                     <h4 className="card.title">{title}</h4>
-                    <p className="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary rounded-0">Go somewhere</a>
+                    <p className="card-text text-secondary">{text}.</p>
+                    <a href={url} class="btn btn-primary rounded-0" target="_blank">Go somewhere</a>
             </div>
         </div>
     )
