@@ -20,14 +20,14 @@ const cards = [
         title: "Cualquier Cosa",
         image: imagen1,
         url: 'https://getbootstrap.com/',
-        Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
+        text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
     },
     {
         id: 2,
         title: "Visitando",
         image: imagen2,
         url: 'https://cssgradient.io/',
-        Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
+        text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
         
 
     },
@@ -36,7 +36,7 @@ const cards = [
         title: "Viajando",
         image: imagen3,
         url: "https://www.youtube.com/",
-        Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
+        text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
 
     },
     {
@@ -44,7 +44,7 @@ const cards = [
         title: "Hermosura",
         image: imagen4,
         url: "https://www.youtube.com/",
-        Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
+        text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
         
     },
 
