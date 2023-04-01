@@ -18,14 +18,14 @@ const cards = [
     {
         id: 1,
         title: "Cualquier Cosa",
-        image: imagen1,
+        image: "imagen1.jpg",
         url: 'https://getbootstrap.com/',
         text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
     },
     {
         id: 2,
         title: "Visitando",
-        image: imagen2,
+        image: "imagen2.jpg",
         url: 'https://cssgradient.io/',
         text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
         
@@ -34,7 +34,7 @@ const cards = [
     {
         id: 3,
         title: "Viajando",
-        image: imagen3,
+        image: "imagen3.jpg",
         url: "https://www.youtube.com/",
         text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
 
@@ -42,7 +42,7 @@ const cards = [
     {
         id: 4,
         title: "Hermosura",
-        image: imagen4,
+        image: "imagen4.jpg",
         url: "https://www.youtube.com/",
         text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
         
