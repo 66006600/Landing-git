@@ -1,24 +1,76 @@
 import React from "react";
 
+import Card from "../../Components/Card.js";
+import imagen1 from "../../img/imagen1.jpg";
+import imagen2 from "../../img/imagen2.jpg";
+import imagen3 from "../../img/imagen3.jpg";
+import imagen4 from "../../img/imagen4.jpg";
+
+
+
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+
 
 //create your first component
+
+
+const cards = [
+    {
+        id: 1,
+        title: "Cualquier Cosa",
+        image: imagen1,
+        url: 'https://getbootstrap.com/',
+        Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
+    },
+    {
+        id: 2,
+        title: "Visitando",
+        image: imagen2,
+        url: 'https://cssgradient.io/',
+        Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
+        
+
+    },
+    {
+        id: 3,
+        title: "Viajando",
+        image: imagen3,
+        url: "https://www.youtube.com/",
+        Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
+
+    },
+    {
+        id: 4,
+        title: "Hermosura",
+        image: imagen4,
+        url: "https://www.youtube.com/",
+        Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
+        
+    },
+
+
+]
+
+
 const Home = () => {
 	return (
 		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<div className="container d-flex justify-content-center aling-items-center">
+            <div className="row"> 
+			
+                {
+                    cards.map(card => (
+                        <div className="col-md-4" key={card.id}>
+                            <Card title={card.title} imagen={card.image}  url={card.url} text={card.text}/>
+
+                        </div>
+
+                    ))
+                }
+
+            </div>
+
+        </div>
 		</div>
 	);
 };

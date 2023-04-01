@@ -7,14 +7,14 @@ import image from './img'
 const cards = [
     {
         id: 1,
-        title: "Hermosura",
+        title: "Cualquier Cosa",
         image: image1,
         url: 'https://getbootstrap.com/',
         Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
     },
     {
         id: 2,
-        title: "Hermosura",
+        title: "Visitando",
         image: image2,
         url: 'https://cssgradient.io/',
         Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
@@ -23,7 +23,7 @@ const cards = [
     },
     {
         id: 3,
-        title: "Hermosura",
+        title: "Viajando",
         image: image3,
         url: "https://www.youtube.com/",
         Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
