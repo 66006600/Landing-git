@@ -16,8 +16,6 @@ import Jumbo from "../../Components/Jumbotron.js";
 //create your first component
 
 
-
-
 const cards = [
     {
         id: 1,
