@@ -5,6 +5,8 @@ import imagen1 from "../../img/imagen1.jpg";
 import imagen2 from "../../img/imagen2.jpg";
 import imagen3 from "../../img/imagen3.jpg";
 import imagen4 from "../../img/imagen4.jpg";
+import Jumbo from "../../Components/Jumbotron.js";
+
 
 
 
@@ -12,6 +14,8 @@ import imagen4 from "../../img/imagen4.jpg";
 
 
 //create your first component
+
+
 
 
 const cards = [
