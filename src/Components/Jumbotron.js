@@ -26,4 +26,4 @@ function Jumbo() {
 
 
 
-export default Jumbo
+export default Jumbo;

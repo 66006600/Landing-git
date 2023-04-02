@@ -1,11 +1,12 @@
 import React from "react";
-
 import Card from "../../Components/Card.js";
 import imagen1 from "../../img/imagen1.jpg";
 import imagen2 from "../../img/imagen2.jpg";
 import imagen3 from "../../img/imagen3.jpg";
 import imagen4 from "../../img/imagen4.jpg";
 import Jumbo from "../../Components/Jumbotron.js";
+import Navbar from "../../Components/Navbar.js";
+
 
 
 
