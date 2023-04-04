@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
+import Footer from "./Footer";
 
 
 import imagen1 from "./../../img/imagen1.jpg";
@@ -12,9 +13,7 @@ import imagen4 from "../../img/imagen4.jpg";
 
 //include images into your bundle
 
-
 //create your first component
-
 
 const cards = [
     {
@@ -59,7 +58,7 @@ const Home = () => {
 		<div className="container-fluid g-0 ">
             <Navbar />
             <Jumbotron />
-
+            
 			<div className="container d-flex justify-content-center aling-items-center">
             <div className="row"> 
 			
@@ -75,7 +74,9 @@ const Home = () => {
 
             </div>
 
+            
         </div>
+        
 		</div>
 	);
 };

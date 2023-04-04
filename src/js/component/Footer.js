@@ -1,14 +1,14 @@
 import React from "react";
 
 
-function footer() {
+function Footer() {
   return (
     <>
-      <footer class="bg-dark text-center text-lg-start">
+      <footer className="bg-dark text-center text-lg-start">
 
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div className="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
           © 2020 Copyright:
-          <a class="text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <a className="text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
         </div>
 
       </footer>
@@ -16,6 +16,6 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;
 
 
