@@ -4,7 +4,7 @@ import Card from './Card'
 import imagen1 from './img'
 import imagen2 from './img'
 import imagen3 from './img'
-import imagen4 from './img'
+import imagen4 from ''
 
 
 const cards = [
@@ -26,7 +26,7 @@ const cards = [
     },
     {
         id: 3,
-        title: "Viajando",
+        title: "Titulo 3",
         image: "imagen3.jpg",
         url: "https://www.youtube.com/",
         Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
@@ -34,7 +34,7 @@ const cards = [
     },
     {
         id: 4,
-        title: "Hermosura",
+        title: "Titulo 4",
         image: "imagen4.jpg",
         url: "https://www.youtube.com/",
         Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
@@ -63,3 +63,4 @@ function Cards() {
         </div>
     )
 }
+export default Cards;
