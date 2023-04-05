@@ -29,7 +29,7 @@ const cards = [
         image: imagen2,
         url: 'https://cssgradient.io/',
         text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
-        
+
 
     },
     {
@@ -46,7 +46,7 @@ const cards = [
         image: imagen4,
         url: "https://www.youtube.com/",
         text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
-        
+
     },
 
 
@@ -54,31 +54,30 @@ const cards = [
 
 
 const Home = () => {
-	return (
-		<div className="container-fluid g-0 ">
+    return (
+        <div className="container-fluid g-0 ">
             <Navbar />
             <Jumbotron />
-            
-			<div className="container d-flex justify-content-center aling-items-center">
-            <div className="row"> 
-			
-                {
-                    cards.map(card => (
-                        <div className="col-md-3" key={card.id}>
-                            <Card title={card.title} imagen={card.image}  url={card.url} text={card.text}/>
 
-                        </div>
+            <div className="container d-flex justify-content-center aling-items-center">
+                <div className="row">
 
-                    ))
-                }
+                    {
+                        cards.map(card => (
+                            <div className="col-md-3" key={card.id}>
+                                <Card title={card.title} imagen={card.image} url={card.url} text={card.text} />
+
+                            </div>
+
+                        ))
+                    }
+
+                </div>
 
             </div>
 
-            
         </div>
-        
-		</div>
-	);
+    );
 };
 
 export default Home;
