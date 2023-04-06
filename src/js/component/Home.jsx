@@ -18,7 +18,7 @@ import imagen4 from "../../img/imagen4.jpg";
 const cards = [
     {
         id: 1,
-        title: "Cualquier Cosa",
+        title: "Dia gatuno",
         image: imagen1,
         url: 'https://getbootstrap.com/',
         text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
@@ -75,6 +75,7 @@ const Home = () => {
                 </div>
 
             </div>
+            
 
         </div>
     );

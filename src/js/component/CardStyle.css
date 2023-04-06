@@ -1,5 +1,5 @@
 .card:hover {
-    box-shadow: 5px 10px 20px 1px rgba(103, 9, 9, 0.27) !important;
+    box-shadow: 5px 10px 20px 1px rgba(114, 23, 23, 0.27) !important;
 
 }
 
@@ -13,6 +13,6 @@
 }
 
 a:hover {
-    background-color: rgb(110, 65, 95)!important;
+    background-color: rgb(192, 78, 97)!important;
 } 
 
