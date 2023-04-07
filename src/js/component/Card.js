@@ -1,7 +1,6 @@
 import React from "react";
 import "./CardStyle.css";
 
-
 function Card({ imagen, title, text, url }) {
     console.log()
     return (
@@ -15,5 +14,4 @@ function Card({ imagen, title, text, url }) {
         </div>
     )
 }
-
 export default Card;

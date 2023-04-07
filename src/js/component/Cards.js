@@ -1,11 +1,4 @@
 import React from 'react'
-import Card from './Card'
-
-import imagen1 from './img'
-import imagen2 from './img'
-import imagen3 from './img'
-import imagen4 from ''
-
 
 const cards = [
     {
@@ -21,7 +14,7 @@ const cards = [
         image: "imagen2jpg",
         url: 'https://cssgradient.io/',
         Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
-        
+
 
     },
     {
@@ -38,10 +31,7 @@ const cards = [
         image: "imagen4.jpg",
         url: "https://www.youtube.com/",
         Text: 'Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500'
-        
     },
-
-
 ]
 
 function Cards() {
@@ -51,15 +41,11 @@ function Cards() {
                 {
                     cards.map(card => (
                         <div className="col-md-4" key={card.id}>
-                            <card title={card.title} image={card.image} url={card.url} text={card.text}/>
-
+                            <card title={card.title} image={card.image} url={card.url} text={card.text} />
                         </div>
-
                     ))
                 }
-
             </div>
-
         </div>
     )
 }

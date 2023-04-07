@@ -4,6 +4,13 @@ import React from 'react';
 function Navbar() {
   return (
     <>
+      <nav className="navbar navbar-dark bg-dark">
+        <div className="container-fluid">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+                      </button>
+        </div>
+      </nav>
       <div className="collapse" id="navbarToggleExternalContent">
         <div className="bg-dark p-4">
           <h5 className="text-white">Collapsed content</h5>
@@ -24,13 +31,7 @@ function Navbar() {
       </ul>
         </div>
       </div>
-      <nav className="navbar navbar-dark bg-dark">
-        <div className="container-fluid">
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-                      </button>
-        </div>
-      </nav>
+      
 
     </>
   );
